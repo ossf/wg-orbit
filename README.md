@@ -1,7 +1,6 @@
-# **OSSF Project/WG Name**
+# **ORBIT: Open Resources for Baselines, Interoperability, and Tooling**
 
-[Brief description of the initiative]
-
+The ORBIT WG exists to develop and maintain interoperable resources related to the identification and presentation of security-relevant data.
 
 ## 
 **Motivation**
@@ -12,10 +11,7 @@
 ## 
 **Objective**
 
-[What is to be achieved with this initiative]
-
-[OKRs - OPTIONAL]
-
+Following formation and initial stabilization, the WG will additionally seek to facilitate contribution to OpenSSF of additional resources which have streamlined development and/or adoption of the aforementioned resources. This includes logical models, schemas, libraries, and control validation/enforcement tooling.
 
 ## 
 **Scope**
@@ -26,14 +22,20 @@
 ## 
 **Prior Work**
 
+Recognizing the generous support provided to-date by their respecive homes, but moving forward to centralize these tightly-coupled activities, the WG at launch will take responsibility for the following OpenSSF projects and repositories:
 
-
-*   List of prior and/or related projects
+- [Open Source Project Security Baseline](https://github.com/ossf/security-baseline)
+- [Open Source Project Security Assessments](https://github.com/ossf/security-assessments)
+- [Security Insights](https://github.com/ossf/security-insights-spec)
+- [SI Tooling](https://github.com/ossf/si-tooling)
 
 ## 
 **Active Projects**
 
-[Optional]
+- [Open Source Project Security Baseline](https://github.com/ossf/security-baseline)
+- [Open Source Project Security Assessments](https://github.com/ossf/security-assessments)
+- [Security Insights](https://github.com/ossf/security-insights-spec)
+- [SI Tooling](https://github.com/ossf/si-tooling)
 
 ## 
 **Inactive Projects**
@@ -45,7 +47,7 @@
 
 *   Official communications occur on the [ADD LINK TO YOUR WG MAILING LIST] (ex: https://lists.openssf.org/g/openssf-tac/topics).  \
 [Manage your subscriptions to Open SSF mailing lists](https://lists.openssf.org/g/main/subgroups).
-*   [Add Slack information if availabable]
+*   [Slack](https://openssf.slack.com/archives/C08NJTFAL74)
 
 ## 
 
@@ -69,8 +71,7 @@
 **Governance**
 
 [TODO: Update this link to your specific CHARTER.md file]
-The [CHARTER.md](https://github.com/ossf/project-template/blob/main/CHARTER.md) outlines the scope and governance of our group activities.
-
+The [CHARTER.md](https://github.com/ossf/wg-orbit/blob/main/CHARTER.md) outlines the scope and governance of our group activities.
 
 [OPTIONAL]
 *   Lead name 
