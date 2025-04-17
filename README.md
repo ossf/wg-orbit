@@ -1,4 +1,4 @@
-# **ORBIT: Open Resources for Baselines, Interoperability, and Tooling**
+# ORBIT: Open Resources for Baselines, Interoperability, and Tooling
 
 The ORBIT WG exists to develop and maintain interoperable resources related to the identification and presentation of security-relevant data.
 
