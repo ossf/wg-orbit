@@ -66,11 +66,15 @@ This Technical Charter sets forth the responsibilities and procedures for techni
 
 - a. While the WG aims to operate as a consensus-based community, if any TSC decision requires a vote to move the WG forward, the voting members of the TSC will vote on a one vote per voting member basis.
 
-- b. Quorum for a live vote requires at least fifty percent of all voting members of the TSC to be present. The TSC may continue to meet if quorum is not met but will be prevented from making any decisions at the meeting.
+- b. Quorum for a live vote requires at least fifty percent of all voting members of the TSC to be present.
 
-- c. Except as provided elsewhere in this charter, decisions by vote at a meeting require a majority vote of those in attendance, provided quorum is met. Decisions made by electronic vote without a meeting require a majority vote of all voting members of the TSC.
+- c. Any TSC member may determine that a decision requires a community consensus or TSC vote, while others may always require a vote by nature of this charter or by custom of the WG.
 
-- d. In the event a vote cannot be resolved by the TSC, any voting member of the TSC may refer the matter to the TAC for assistance in reaching a resolution.
+- d. Bypassing a vote required by charter or well-established custom is grounds for removal from the TSC, subject to either a TSC vote or community consensus.
+
+- e. Except as provided elsewhere in this charter, decisions by vote at a meeting require a majority vote of those in attendance, provided quorum is met. Decisions made by electronic vote without a meeting require a majority vote of all voting members of the TSC.
+
+- f. In the event a vote cannot be resolved by the TSC, any voting member of the TSC may refer the matter to the TAC for assistance in reaching a resolution.
 
 ## 5. Compliance with Policies
 
