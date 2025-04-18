@@ -1,4 +1,5 @@
 # ORBIT: Open Resources for Baselines, Interoperability, and Tooling
+The ORBIT Working group is officially a [Sandbox-level](https://github.com/ossf/tac/blob/main/process/working-group-lifecycle.md#to-become-sandbox) working group within the OpenSSF <img align="right" src="https://github.com/ossf/tac/blob/main/files/images/OpenSSF_StagesBadges_sandbox.svg" width="100" height="100">
 
 The ORBIT WG exists to develop and maintain interoperable resources related to the identification and presentation of security-relevant data.
 
