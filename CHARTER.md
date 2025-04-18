@@ -49,7 +49,7 @@ This Technical Charter sets forth the responsibilities and procedures for techni
 - b. Technical Initiatives must have a clearly identified lead who, for voting purposes, is not a lead on another ORBIT WG Technical Initiative.
 
   - i. Leads will report to and participate in the routine activities of the TSC.
-  - ii. Leads may nominate their own replacement at any time, subject to approval from other maintainers on the Initiative.
+  - ii. Leads may nominate their own replacement at any time, subject to the charter of the Technical Initiative.
   - iii. In the event that the TSC elects to remove an acting lead, it must appoint a replacement in the same election.
 
 - c. A new Technical Initiative should only be brought into the WG after it is confirmed to be topically relevant, and interoperable with no less than two other Technical Initiatives in the WG. Acceptance must be confirmed on the proposal with a 2/3 majority approval from the Technical Steering Committee. That proposal must include an update to this document.
