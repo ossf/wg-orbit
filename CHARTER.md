@@ -24,7 +24,7 @@ This Technical Charter sets forth the responsibilities and procedures for techni
 
 - d. The TSC may create, change, modify, or remove roles or their definitions, so long as the definitions of roles for the WG are publicly available in the WG repository.
 
-- e. Responsibilities: The TSC will be responsible for all aspects of oversight relating to the WG, which may include:
+- e. The TSC will be responsible for all aspects of oversight relating to the WG, which may include:
 
   - i. coordinating the direction of the WG;
   - ii. approving, organizing or removing activities;
@@ -42,9 +42,15 @@ This Technical Charter sets forth the responsibilities and procedures for techni
 
 ## 3. Technical Initiatives
 
-- a. A Technical Initiative is a project or special interest group (SIG) that falls under the oversight of this working group at creation or was subsequently added to this section of the charter. No other work streams, activities, or bodies of any kind are considered Technical Initiatives, regardless of their affiliation with the WG.
+- a. A Technical Initiative is a project or special interest group (SIG) that falls under the oversight of this working group at creation or was subsequently added to this section of the charter.
+  
+  - No other work streams, activities, or bodies of any kind are considered Technical Initiatives, regardless of their affiliation with the WG.
 
-- b. Technical Initiatives must have a clearly identified lead who reports to and participates in the routine activities of the WG TSC. This lead may nominate their own replacement at any time. In the event that the TSC elects to remove an acting lead, it must appoint a replacement in the same election.
+- b. Technical Initiatives must have a clearly identified lead who, for voting purposes, is not a lead on another ORBIT WG Technical Initiative.
+
+  - i. Leads will report to and participate in the routine activities of the TSC.
+  - ii. Leads may nominate their own replacement at any time, subject to approval from other maintainers on the Initiative.
+  - iii. In the event that the TSC elects to remove an acting lead, it must appoint a replacement in the same election.
 
 - c. A new Technical Initiative should only be brought into the WG after it is confirmed to be topically relevant, and interoperable with no less than two other Technical Initiatives in the WG. Acceptance must be confirmed on the proposal with a 2/3 majority approval from the Technical Steering Committee. That proposal must include an update to this document.
 
@@ -60,9 +66,9 @@ This Technical Charter sets forth the responsibilities and procedures for techni
 
 - a. While the WG aims to operate as a consensus-based community, if any TSC decision requires a vote to move the WG forward, the voting members of the TSC will vote on a one vote per voting member basis.
 
-- b. Quorum for TSC meetings requires at least fifty percent of all voting members of the TSC to be present. The TSC may continue to meet if quorum is not met but will be prevented from making any decisions at the meeting.
+- b. Quorum for a live vote requires at least fifty percent of all voting members of the TSC to be present. The TSC may continue to meet if quorum is not met but will be prevented from making any decisions at the meeting.
 
-- c. Except as provided in Section 7.c. and 8.a, decisions by vote at a meeting require a majority vote of those in attendance, provided quorum is met. Decisions made by electronic vote without a meeting require a majority vote of all voting members of the TSC.
+- c. Except as provided elsewhere in this charter, decisions by vote at a meeting require a majority vote of those in attendance, provided quorum is met. Decisions made by electronic vote without a meeting require a majority vote of all voting members of the TSC.
 
 - d. In the event a vote cannot be resolved by the TSC, any voting member of the TSC may refer the matter to the TAC for assistance in reaching a resolution.
 
