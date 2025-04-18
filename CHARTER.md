@@ -1,4 +1,4 @@
-# Technical Charter for Open Source Security Foundation
+# OpenSSF ORBIT WG Technical Charter
 
 Open Resources for Baselines, Interoperability, and Tooling (ORBIT) Working Group
 
