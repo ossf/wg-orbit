@@ -62,7 +62,7 @@ This Technical Charter sets forth the responsibilities and procedures for techni
   - Open Source Project Security Assessments
   - Security Insights Specification
 
-## 4. Voting
+## 4. TSC Voting
 
 - a. While the WG aims to operate as a consensus-based community, if any TSC decision requires a vote to move the WG forward, the voting members of the TSC will vote on a one vote per voting member basis.
 
