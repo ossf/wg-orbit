@@ -72,7 +72,6 @@ This Technical Charter sets forth the responsibilities and procedures for techni
 
 - d. Bypassing a vote required by charter or well-established custom is grounds for removal from the TSC, subject to either a TSC vote or community consensus.
 
-- e. Except as provided elsewhere in this charter, decisions by vote at a meeting require a majority vote of those in attendance, provided quorum is met. Decisions made by electronic vote without a meeting require a majority vote of all voting members of the TSC.
 
 - f. In the event a vote cannot be resolved by the TSC, any voting member of the TSC may refer the matter to the TAC for assistance in reaching a resolution.
 
