@@ -12,7 +12,7 @@ This Technical Charter sets forth the responsibilities and procedures for techni
 
 - b. The scope of the WG includes collaborative development under the WG License (as defined herein) supporting the mission, including organizing collaboration activities, defining best practices, documentation, testing, integration, and the creation of other artifacts that support the mission.
 
-- c. Participation in the WG through attendance or contribution is open to anyone, whether a OpenSSF member or not, so long as they abide by the terms of this Technical Charter.
+- c. Participation in the WG through attendance or contribution is open to anyone, whether an OpenSSF member or not, so long as they abide by the terms of this Technical Charter.
 
 ## 2. Technical Steering Committee
 
