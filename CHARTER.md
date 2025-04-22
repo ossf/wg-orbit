@@ -54,6 +54,10 @@ This Technical Charter sets forth the responsibilities and procedures for techni
 
 - c. A new Technical Initiative should only be brought into the WG after it is confirmed to be topically relevant, and interoperable with no less than two other Technical Initiatives in the WG. Acceptance must be confirmed on the proposal with a 2/3 majority approval from the Technical Steering Committee. That proposal must include an update to this document.
 
+    - i. Interoperability is determined by the acceptance of outputs from one project as inputs to the core feature set of another.
+    - ii. A project is considered interoperable if it accepts input from another project or if it provides output that is accepted as input to another project.
+
+
 - d. A Technical Initiative may be de-scoped or archived for any reason following confirmation on the proposal with a 2/3 majority approval from the Technical Steering Committee. That proposal must include an update to this document.
 
 - e. The current Technical Initiatives in scope for this WG are:
