@@ -60,11 +60,13 @@ This Technical Charter sets forth the responsibilities and procedures for techni
 
 - d. A Technical Initiative may be de-scoped or archived for any reason following confirmation on the proposal with a 2/3 majority approval from the Technical Steering Committee. That proposal must include an update to this document.
 
-- e. The current Technical Initiatives in scope for this WG are:
+### Active Technical Initiatives
 
-  - Open Source Project Security Baseline
-  - Open Source Project Security Assessments
-  - Security Insights Specification
+| Technical Initiative | Lead |
+|---|---|
+| [Open Source Project Security Baseline](https://github.com/ossf/security-baseline) | Ben Cotton (@funnelfiasco) |
+| [Open Source Project Security Assessments](https://github.com/ossf/security-assessments) | Not yet appointed |
+| [Security Insights Specification](https://github.com/ossf/security-insights-spec) | Eddie Knight (@eddie-knight) |
 
 ## 4. TSC Voting
 
