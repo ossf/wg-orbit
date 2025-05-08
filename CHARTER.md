@@ -54,9 +54,8 @@ This Technical Charter sets forth the responsibilities and procedures for techni
 
 - c. A new Technical Initiative should only be brought into the WG after it is confirmed to be topically relevant, and interoperable with no less than two other Technical Initiatives in the WG. Acceptance must be confirmed on the proposal with a 2/3 majority approval from the Technical Steering Committee. That proposal must include an update to this document.
 
-    - i. Interoperability is determined by the acceptance of outputs from one project as inputs to the core feature set of another.
-    - ii. A project is considered interoperable if it accepts input from another project or if it provides output that is accepted as input to another project.
-
+  - i. Interoperability is determined by the acceptance of outputs from one project as inputs to the core feature set of another.
+  - ii. A project is considered interoperable if it accepts input from another project or if it provides output that is accepted as input to another project.
 
 - d. A Technical Initiative may be de-scoped or archived for any reason following confirmation on the proposal with a 2/3 majority approval from the Technical Steering Committee. That proposal must include an update to this document.
 
@@ -77,7 +76,6 @@ This Technical Charter sets forth the responsibilities and procedures for techni
 - c. Any TSC member may determine that a decision requires a community consensus or TSC vote, while others may always require a vote by nature of this charter or by custom of the WG.
 
 - d. Bypassing a vote required by charter or well-established custom is grounds for removal from the TSC, subject to either a TSC vote or community consensus.
-
 
 - f. In the event a vote cannot be resolved by the TSC, any voting member of the TSC may refer the matter to the TAC for assistance in reaching a resolution.
 
