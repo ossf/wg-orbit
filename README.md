@@ -19,7 +19,7 @@ Review the WG's [mission and scope](CHARTER.md#1-mission-and-scope) for more det
 
     - [Add the ORBIT WG meeting to your calendar](
     https://calendar.google.com/calendar/u/0/r/eventedit/copy/NmxoMTUzc20wbG80MzQxNWY4NGJicHJuMm5fMjAyNTA1MDhUMTcwMDAwWiBzNjN2b2VmaHA1aTlwZmx0YjVxNjduZ3Blc0Bn)
-    - [Meeting Notes](https://docs.google.com/document/d/1uXQI1vI5_HyOvxHMexrnTY_ruBrynbPl5yOd1UM4g3A/edit#heading=h.yworp6sxzb6g)
+    - [Meeting Notes](https://docs.google.com/document/d/1Hf-SsjYaAvY2Nk_jJ2-aHMqgBi1qg7oIj3PJWsCEe0U/edit?tab=t.0#heading=h.omyjy2x7t74i)
 
 ## Governance
 
