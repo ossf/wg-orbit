@@ -64,7 +64,7 @@ This Technical Charter sets forth the responsibilities and procedures for techni
 | Technical Initiative | Lead |
 |---|---|
 | [Open Source Project Security Baseline](https://github.com/ossf/security-baseline) | Ben Cotton (@funnelfiasco) |
-| [Open Source Project Security Assessments](https://github.com/ossf/security-assessments) | Not yet appointed |
+| [Open Source Project Security Assessments](https://github.com/ossf/security-assessments) | John Kjell (@jkjell) |
 | [Security Insights Specification](https://github.com/ossf/security-insights-spec) | Eddie Knight (@eddie-knight) |
 
 ## 4. TSC Voting
