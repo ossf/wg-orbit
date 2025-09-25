@@ -12,4 +12,5 @@ flowchart TD
     E -->|consumes | D
     E -->|produces | H(assessment results)
     G -->|uses | C
+    I[LFX Insights] -->|consumes |H
 ```
