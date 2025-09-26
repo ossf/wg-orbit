@@ -6,7 +6,10 @@ flowchart TD
     A[ORBIT] -->|Has| C(Gemara)
     A[ORBIT] -->|Has| D(Security Insights)
     A[ORBIT] -->|Has| E(pvtr-github-repo)
-    A[ORBIT] -->|Has| F(minder-tbd)
+    A[ORBIT] -->|Has| F(Minder)
+    F -->|Evaluates| I(minder-rules)
+    I -->|Expresses| B
+    I -->|reads| D
     A[ORBIT] -->|Has| G(Assessments)
     C -->|Expresses| B
     E -->|consumes | D
