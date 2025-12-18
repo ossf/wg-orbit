@@ -39,7 +39,7 @@ We value all contributions, from improving documentation to participating in dis
 
 ## Code of Conduct
 
-We are committed to maintaining a welcoming, inclusive, and respectful environment. Please read and follow our [Code of Conduct](/code-of-conduct.md) to ensure a positive experience for everyone.
+We are committed to maintaining a welcoming, inclusive, and respectful environment. Please read and follow our [Code of Conduct](https://openssf.org/community/code-of-conduct/) to ensure a positive experience for everyone.
 
 ## Community Expectations
 
