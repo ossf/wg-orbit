@@ -5,6 +5,7 @@
 ***Open Resources for Baselines, Interoperability, and Tooling***
 
 The ORBIT Working Group (WG) is a [Sandbox-level](https://github.com/ossf/tac/blob/main/process/working-group-lifecycle.md#to-become-sandbox) group within the [Open Source Security Foundation (OpenSSF)](https://openssf.org).
+
 <img align="right" src="https://github.com/ossf/tac/blob/main/files/images/OpenSSF_StagesBadges_sandbox.svg" width="100" height="100">
 
 ORBIT exists to develop and maintain interoperable resources for the identification and presentation of security-relevant data. It provides a home for collaborative activities, best practice definitions, documentation, testing, integration, and other artifacts supporting the mission.
