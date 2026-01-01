@@ -10,6 +10,8 @@ The ORBIT Working Group (WG) is a [Sandbox-level](https://github.com/ossf/tac/bl
 
 ORBIT exists to develop and maintain interoperable resources for the identification and presentation of security-relevant data. It provides a home for collaborative activities, best practice definitions, documentation, testing, integration, and other artifacts supporting the mission.
 
+---
+
 ```mermaid
 ---
 title: What is in ORBIT?
