@@ -23,8 +23,8 @@ flowchart TD
 
         subgraph Gemara
             GemaraSDK(Implementation SDK)
-            Lexicon(GRC Engineering Lexicon)
-            GemaraSchema(GRC Asset Schemas)
+            GemaraLexicon(GRC Engineering Lexicon)
+            GemaraSchemas(GRC Asset Schemas)
         end
 
         SecurityInsights(Security Insights)
@@ -43,17 +43,20 @@ flowchart TD
     Baseline --> | references | Assessments & CopyPasta
     MinderPlatform -->|evaluates| minder-rules
     minder-rules -->|reads| SecurityInsights
-    GemaraSchema -->| provides structure| Baseline
+    GemaraSchemas -->| provides structure| Baseline
     pvtr -->|reads | SecurityInsights
     GemaraSDK -->|provides logic |pvtr
     LFXInsights -->|uses |pvtr
     Baseline -->| defines requirements | pvtr & minder-rules
-    Lexicon -->| provides common language | OSPS
+    GemaraLexicon -->| provides common language | OSPS
 
     click LFXInsights "https://insights.linuxfoundation.org/"
     click Assessments "https://github.com/ossf/security-assessments?tab=readme-ov-file#readme"
-    click Baseline "https://github.com/ossf/security-baseline?tab=readme-ov-file#readme"
-    click GemaraSDK "https://github.com/ossf/gemara"
+    click Baseline "https://baseline.openssf.org"
+    click BPB "https://openssf.org/projects/best-practices-badge/"
+    click GemaraSDK "https://gemara.openssf.org/implementation/#go-sdk"
+    click GemaraSchemas "https://gemara.openssf.org/implementation/#layer-schemas"
+    click GemaraLexicon "https://gemara.openssf.org/lexicon/"
     click SecurityInsights "https://github.com/ossf/security-insights?tab=readme-ov-file#readme"
     click MinderPlatform "https://github.com/mindersec/minder?tab=readme-ov-file#readme"
     click minder-rules "https://github.com/mindersec/minder-rules-and-profiles?tab=readme-ov-file#readme"
