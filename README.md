@@ -6,36 +6,49 @@ The ORBIT Working Group (WG) is a [Sandbox-level](https://github.com/ossf/tac/bl
 ORBIT exists to develop and maintain interoperable resources for the identification and presentation of security-relevant data. It provides a home for collaborative activities, best practice definitions, documentation, testing, integration, and other artifacts supporting the mission.
 
 ```mermaid
----
-title: What is in ORBIT?
----
 flowchart TD
-    subgraph Orbit
-    Baseline(Security Baseline)
-    click Baseline "https://github.com/ossf/security-baseline?tab=readme-ov-file#readme"
-    Gemara(Gemara)
-    click Gemara "https://github.com/ossf/gemara?tab=readme-ov-file#readme"
+    subgraph ORBIT Working Group
+    subgraph OSPS
+        Assessments(Security Assessments)
+        CopyPasta(Security CopyPasta)
+        Baseline(Security Baseline)
+        click Baseline "https://github.com/ossf/security-baseline?tab=readme-ov-file#readme"
+        Baseline --> | References | Assessments & CopyPasta
+    end
+    subgraph Gemara
+        GemaraSDK(Implementation SDK)
+        Lexicon(GRC Engineering Lexicon)
+        click GemaraSDK "https://github.com/ossf/gemara"
+        GemaraSchema(Asset Schemas)
+    end
     SecurityInsights(Security Insights)
     click SecurityInsights "https://github.com/ossf/security-insights?tab=readme-ov-file#readme"
-    Minder(Minder)
-    click Minder "https://github.com/mindersec/minder?tab=readme-ov-file#readme"
-    Minder -->|Evaluates| minder-rules(minder-rules)
+    subgraph Minder
+    MinderPlatform(Platform)
+    click MinderPlatform "https://github.com/mindersec/minder?tab=readme-ov-file#readme"
+    MinderPlatform -->|Evaluates| minder-rules(minder-rules)
     click minder-rules "https://github.com/mindersec/minder-rules-and-profiles?tab=readme-ov-file#readme"
-    minder-rules -->|Expresses| Baseline
-    minder-rules -->|Reads| SecurityInsights
-    Assessments(Security Assessments)
-    click Assessments "https://github.com/ossf/security-assessments?tab=readme-ov-file#readme"
-    Gemara -->|Expresses| Baseline
-    pvtr(pvtr-github-repo) -->|Uses | Gemara
-    click pvtr "https://github.com/revanite-io/pvtr-github-repo?tab=readme-ov-file#readme"
-    pvtr -->|Consumes | SecurityInsights
-    pvtr -->|Produces | AssessmentResults(Gemara Layer 4)
-    click AssessmentResults "https://github.com/ossf/gemara?tab=readme-ov-file#layer-4-evaluation"
-    Assessments -->|Uses | Gemara
     end
+
+    minder-rules -->|Reads| SecurityInsights
+    click Assessments "https://github.com/ossf/security-assessments?tab=readme-ov-file#readme"
+    GemaraSchema -->| Provides Structure| Baseline
+    pvtr[GitHub Repo
+    Privateer Plugin]
+    click pvtr "https://github.com/revanite-io/pvtr-github-repo?tab=readme-ov-file#readme"
+    pvtr -->|Reads | SecurityInsights
+
+    end
+
+    subgraph Linux Foundation Partners
+    BPB(Best Practices Badge) -->| References | Baseline
+    GemaraSDK -->|Provides Logic |pvtr
     LFXInsights[LFX Insights
-    Security & Best Practices] -->|Consumes |AssessmentResults
+    Security & Best Practices] -->|Uses |pvtr
     click LFXInsights "https://insights.linuxfoundation.org/"
+    end
+
+    Baseline -->| Defines Requirements | pvtr & minder-rules
 ```
 
 The group is open to participation from anyone who abides by the [Contributor Covenant Code of Conduct 2.0](https://www.contributor-covenant.org/version/2/0/code_of_conduct/) (OpenSSF member or not).
