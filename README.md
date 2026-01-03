@@ -6,36 +6,60 @@ The ORBIT Working Group (WG) is a [Sandbox-level](https://github.com/ossf/tac/bl
 ORBIT exists to develop and maintain interoperable resources for the identification and presentation of security-relevant data. It provides a home for collaborative activities, best practice definitions, documentation, testing, integration, and other artifacts supporting the mission.
 
 ```mermaid
----
-title: What is in ORBIT?
----
 flowchart TD
-    subgraph Orbit
-    Baseline(Security Baseline)
-    click Baseline "https://github.com/ossf/security-baseline?tab=readme-ov-file#readme"
-    Gemara(Gemara)
-    click Gemara "https://github.com/ossf/gemara?tab=readme-ov-file#readme"
-    SecurityInsights(Security Insights)
-    click SecurityInsights "https://github.com/ossf/security-insights?tab=readme-ov-file#readme"
-    Minder(Minder)
-    click Minder "https://github.com/mindersec/minder?tab=readme-ov-file#readme"
-    Minder -->|Evaluates| minder-rules(minder-rules)
-    click minder-rules "https://github.com/mindersec/minder-rules-and-profiles?tab=readme-ov-file#readme"
-    minder-rules -->|Expresses| Baseline
-    minder-rules -->|Reads| SecurityInsights
-    Assessments(Security Assessments)
-    click Assessments "https://github.com/ossf/security-assessments?tab=readme-ov-file#readme"
-    Gemara -->|Expresses| Baseline
-    pvtr(pvtr-github-repo) -->|Uses | Gemara
-    click pvtr "https://github.com/revanite-io/pvtr-github-repo?tab=readme-ov-file#readme"
-    pvtr -->|Consumes | SecurityInsights
-    pvtr -->|Produces | AssessmentResults(Gemara Layer 4)
-    click AssessmentResults "https://github.com/ossf/gemara?tab=readme-ov-file#layer-4-evaluation"
-    Assessments -->|Uses | Gemara
+
+    BPB(OpenSSF
+    Best Practices Badge)
+    LFXInsights(LFX Insights
+    Security & Best Practices)
+
+    subgraph ORBIT Working Group
+
+        subgraph OSPS
+            Assessments(Security Assessments)
+            CopyPasta(Security CopyPasta)
+            Baseline(Security Baseline)
+        end
+
+        subgraph Gemara
+            GemaraSDK(Implementation SDK)
+            GemaraLexicon(GRC Engineering Lexicon)
+            GemaraSchemas(GRC Asset Schemas)
+        end
+
+        SecurityInsights(Security Insights)
+        subgraph Minder
+        MinderPlatform(Platform)
+        minder-rules(minder-rules)
+        end
+
+        pvtr[GitHub Repo
+        Privateer Plugin]
+        click pvtr "https://github.com/revanite-io/pvtr-github-repo?tab=readme-ov-file#readme"
+
     end
-    LFXInsights[LFX Insights
-    Security & Best Practices] -->|Consumes |AssessmentResults
+
+    BPB -->| references | Baseline
+    Baseline --> | references | Assessments & CopyPasta
+    MinderPlatform -->|evaluates| minder-rules
+    minder-rules -->|reads| SecurityInsights
+    GemaraSchemas -->| provides structure| Baseline
+    pvtr -->|reads | SecurityInsights
+    GemaraSDK -->|provides logic |pvtr
+    LFXInsights -->|uses |pvtr
+    Baseline -->| defines requirements | pvtr & minder-rules
+    GemaraLexicon -->| provides common language | OSPS
+
     click LFXInsights "https://insights.linuxfoundation.org/"
+    click Assessments "https://github.com/ossf/security-assessments?tab=readme-ov-file#readme"
+    click Baseline "https://baseline.openssf.org"
+    click BPB "https://openssf.org/projects/best-practices-badge/"
+    click GemaraSDK "https://gemara.openssf.org/implementation/#go-sdk"
+    click GemaraSchemas "https://gemara.openssf.org/implementation/#layer-schemas"
+    click GemaraLexicon "https://gemara.openssf.org/lexicon/"
+    click SecurityInsights "https://github.com/ossf/security-insights?tab=readme-ov-file#readme"
+    click MinderPlatform "https://github.com/mindersec/minder?tab=readme-ov-file#readme"
+    click minder-rules "https://github.com/mindersec/minder-rules-and-profiles?tab=readme-ov-file#readme"
 ```
 
 The group is open to participation from anyone who abides by the [Contributor Covenant Code of Conduct 2.0](https://www.contributor-covenant.org/version/2/0/code_of_conduct/) (OpenSSF member or not).
