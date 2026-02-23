@@ -24,13 +24,12 @@ flowchart TD
 
         subgraph OSPS
             Assessments(Security Assessments)
-            CopyPasta(Security CopyPasta)
+            CopyPasta("Security CopyPasta [WIP]")
             Baseline(Security Baseline)
         end
 
         subgraph Gemara
-            GemaraSDK(Implementation SDK)
-            GemaraLexicon(GRC Engineering Lexicon)
+            GemaraSDK(Support SDKs)
             GemaraSchemas(GRC Asset Schemas)
         end
 
@@ -40,8 +39,7 @@ flowchart TD
         minder-rules(minder-rules)
         end
 
-        pvtr[GitHub Repo
-        Privateer Plugin]
+        pvtr[ Baseline Repo Scanner]
         click pvtr "https://github.com/revanite-io/pvtr-github-repo?tab=readme-ov-file#readme"
 
     end
@@ -55,7 +53,6 @@ flowchart TD
     GemaraSDK -->|provides logic |pvtr
     LFXInsights -->|uses |pvtr
     Baseline -->| defines requirements | pvtr & minder-rules
-    GemaraLexicon -->| provides common language | OSPS
 
     click LFXInsights "https://insights.linuxfoundation.org/"
     click Assessments "https://github.com/ossf/security-assessments?tab=readme-ov-file#readme"
