@@ -10,6 +10,18 @@ The ORBIT Working Group (WG) is a [Sandbox-level](https://github.com/ossf/tac/bl
 
 ORBIT exists to develop and maintain interoperable resources for the identification and presentation of security-relevant data. It provides a home for collaborative activities, best practice definitions, documentation, testing, integration, and other artifacts supporting the mission.
 
+## Quickstart
+
+If you're looking to adopt ORBIT outputs as a project maintainer, here's a simplified overview of a process you might follow:
+
+1. Set up your project repo(s) with basic Security Insight documentation
+2. Complete the OSPS Baseline Documentation requirements for your project maturity level
+3. Complete an OSPS Self Assessment (Optional: Supplement with a Gemara-compatible threat assessment)
+4. Automate any evaluations you can through Minder or the OSPS Baseline Scanner for GitHub Repos
+5. Self-attest to your Baseline conformance with the OpenSSF Best Practices Badge
+
+## Initiative Interoperability Overview
+
 ---
 
 ```mermaid
@@ -73,7 +85,7 @@ The group is open to participation from anyone who abides by the [Contributor Co
 
 Review the WG's [mission and scope](CHARTER.md#1-mission-and-scope) for more details.
 
-## Quick Start
+## Join the Community
 
 1. Star this repository to stay updated
 1. Review the [active technical initiatives](./CHARTER.md#active-technical-initiatives) to see where you can contribute
