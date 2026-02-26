@@ -14,11 +14,12 @@ ORBIT exists to develop and maintain interoperable resources for the identificat
 
 If you're looking to adopt ORBIT outputs as a project maintainer, here's a simplified overview of a process you might follow:
 
-1. Set up your project repo(s) with basic Security Insight documentation
-2. Complete the OSPS Baseline Documentation requirements for your project maturity level
-3. Complete an OSPS Self Assessment (Optional: Supplement with a Gemara-compatible threat assessment)
-4. Automate any evaluations you can through Minder or the OSPS Baseline Scanner for GitHub Repos
-5. Self-attest to your Baseline conformance with the OpenSSF Best Practices Badge
+1. Set up your project repo(s) with basic [Security Insights](http://security-insights.openssf.org/) documentation
+2. Complete the OSPS Baseline [Documentation](https://baseline.openssf.org/versions/2026-02-19.html#documentation) requirements for your project maturity level
+3. Complete an [OSPS Self Assessment](https://github.com/ossf/security-assessments) 
+  - (Optional: Supplement this with a Gemara-compatible threat assessment)
+4. Automate any evaluations you can through [Minder](https://mindersec.dev/) or the [OSPS Baseline Scanner for GitHub Repos](https://github.com/marketplace/actions/open-source-project-security-baseline-scanner)
+5. Self-attest to your Baseline conformance with the [OpenSSF Best Practices Badge](https://www.bestpractices.dev/)```
 
 ## Initiative Interoperability Overview
 
