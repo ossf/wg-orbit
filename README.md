@@ -88,7 +88,7 @@ Review the WG's [mission and scope](CHARTER.md#1-mission-and-scope) for more det
 
 ## Join the Community
 
-1. Star this repository to stay updated
+1. Watch this repository to stay updated
 1. Review the [active technical initiatives](./CHARTER.md#active-technical-initiatives) to see where you can contribute
 1. Join [Slack](https://openssf.slack.com/archives/C08NJTFAL74) and introduce yourself
 1. Join a working group meeting
