@@ -1,0 +1,9 @@
+repos:
+  - repo: local
+    hooks:
+      - id: render-recipe-cards
+        name: Render recipe cards
+        entry: bash -c 'cue cmd render ./recipes/ && git add docs/recipes/'
+        language: system
+        files: '^recipes/.*\.(yaml|cue)$'
+        pass_filenames: false
