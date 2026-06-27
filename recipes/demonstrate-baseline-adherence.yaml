@@ -1,0 +1,41 @@
+
+
+title: Demonstrate Baseline Adherence as a Project
+
+outcome: >-
+  Demonstrate that an open source project meets OSPS Baseline
+  controls at its self-assessed maturity level, producing
+  artifacts that downstream consumers can use for supply chain
+  assurance.
+
+audience:
+  role: "Software Developer / Maintainer"
+  context: >-
+    Project maintainer operating within a organization's security
+    policy framework
+
+ingredients:
+  - OSPS Baseline
+  - Security Insights
+
+equipment:
+  - OSPS Baseline Scanner
+  - AMPEL
+
+technique:
+  description: >-
+    Automated evidence production — use either the OSPS
+    Baseline Scanner or AMPEL to produce verifiable proof of
+    compliance. The Scanner directly evaluates repository
+    controls against the OSPS Baseline and produces structured
+    assessment results. Alternatively, AMPEL evaluates
+    attestation-based policies against signed supply chain
+    metadata, producing verification results that can
+    themselves be attested for downstream consumers.
+
+yield:
+  - name: Assessment Results
+    description: >-
+      Structured evaluation showing pass/fail status for each
+      applicable OSPS Baseline control, produced by the Scanner
+      or by AMPEL policy evaluation against attestations
