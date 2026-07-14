@@ -67,6 +67,7 @@ This Technical Charter sets forth the responsibilities and procedures for techni
 | [Security Insights Specification](https://github.com/ossf/security-insights-spec) | Eddie Knight (@eddie-knight) |
 | [Gemara](https://github.com/ossf/gemara) | Jennifer Power (@jpower432) |
 | [ORBIT Launchpad](https://github.com/ossf/orbit-launchpad) | Nicole Bates (@nikcal) |
+| [Minder](https://github.com/mindersec) | Evan Anderson (@evankanderson) |
 
 ### Inactive Technical Initiatives
 
