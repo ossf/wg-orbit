@@ -26,49 +26,48 @@ If you're looking to adopt ORBIT outputs as a project maintainer, here's a simpl
 ---
 
 ```mermaid
+---
+title: ORBIT Working Group
+---
 flowchart TD
 
-    BPB(OpenSSF
-    Best Practices Badge)
-    LFXInsights(LFX Insights
-    Security & Best Practices)
-
-    subgraph ORBIT Working Group
-
-        subgraph OSPS
-            Assessments(Security Assessments)
-            CopyPasta("Security CopyPasta [WIP]")
-            Baseline(Security Baseline)
-        end
-
-        subgraph Gemara
-            GemaraSDK(Support SDKs)
-            GemaraSchemas(GRC Asset Schemas)
-        end
-
-        SecurityInsights(Security Insights)
-        subgraph Minder
-        MinderPlatform(Platform)
-        minder-rules(minder-rules)
-        end
-
-        pvtr[ Baseline Repo Scanner]
-        click pvtr "https://github.com/revanite-io/pvtr-github-repo?tab=readme-ov-file#readme"
-
+    subgraph OCC[ORBIT Control Catalogs]
+        Baseline(Security Baseline)
+        CRABFOMA(CRA Baseline for Manufacturers)
+        CRABFOSC(CRA Baseline for Open Source Consumers)
     end
 
-    BPB -->| references | Baseline
-    Baseline --> | references | Assessments & CopyPasta
+    subgraph Gemara
+        GemaraSDK(Support SDKs)
+        Whitepaper(Whitepaper / Philosophy)
+        GemaraSchemas(GRC Asset Schemas)
+    end
+
+    SecurityInsights(Security Insights Specification)
+
+    subgraph Minder
+        minder-rules(minder-rules)
+        MinderPlatform(Platform)
+    end
+
+    subgraph Privateer
+        pvtr(pvtr CLI)
+        pvtrSDK(Privateer SDK)
+    end
+
+    BaselineScanner[GitHub Repo Scanner]
+    click BaselineScanner "https://github.com/revanite-io/pvtr-github-repo?tab=readme-ov-file#readme"
+
+    Baseline --> | provides definitions |CRABFOMA & CRABFOSC
+    Privateer -->| provides structure| BaselineScanner
+    GemaraSchemas -->| provides structure| OCC
+    BaselineScanner -->|reads | SecurityInsights
+    GemaraSDK -->|provides logic |Privateer
+    OCC --> | provides definitions | BaselineScanner & Minder
+    Minder -->|reads| SecurityInsights
     MinderPlatform -->|evaluates| minder-rules
-    minder-rules -->|reads| SecurityInsights
-    GemaraSchemas -->| provides structure| Baseline
-    pvtr -->|reads | SecurityInsights
-    GemaraSDK -->|provides logic |pvtr
-    LFXInsights -->|uses |pvtr
-    Baseline -->| defines requirements | pvtr & minder-rules
 
     click LFXInsights "https://insights.linuxfoundation.org/"
-    click Assessments "https://github.com/ossf/security-assessments?tab=readme-ov-file#readme"
     click Baseline "https://baseline.openssf.org"
     click BPB "https://openssf.org/projects/best-practices-badge/"
     click GemaraSDK "https://gemara.openssf.org/implementation/#go-sdk"
