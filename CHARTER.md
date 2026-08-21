@@ -63,7 +63,7 @@ This Technical Charter sets forth the responsibilities and procedures for techni
 
 | Technical Initiative | Lead |
 |---|---|
-| [Open Source Project Security Baseline](https://github.com/ossf/security-baseline) | Ben Cotton (@funnelfiasco) |
+| [Open Source Project Security Baseline](https://github.com/ossf/security-baseline) | (vacant) |
 | [Security Insights Specification](https://github.com/ossf/security-insights-spec) | Eddie Knight (@eddie-knight) |
 | [Gemara](https://github.com/ossf/gemara) | Jennifer Power (@jpower432) |
 | [ORBIT Launchpad](https://github.com/ossf/orbit-launchpad) | Nicole Bates (@nikcal) |
