@@ -6,7 +6,7 @@ A Special Interest Group (SIG) and Technical Initiative of the [OpenSSF ORBIT Wo
 
 ## 1. Mission & Technical Scope
 
-The Definitions SIG develops and maintains a portfolio of definition artifacts — specifications, criteria sets, taxonomies, and supporting vocabularies — that open source projects and their consumers can adopt to describe and improve security posture. Artifacts are developed in parallel with a quick decision cycle that captures broad stakeholder input.
+The Definitions SIG develops and maintains a portfolio of definition artifacts — specifications, criteria sets, and supporting vocabularies — that open source projects and their consumers can adopt to describe and improve security posture. Artifacts are developed in parallel with a quick decision cycle that captures broad stakeholder input.
 
 **In scope:**
 
