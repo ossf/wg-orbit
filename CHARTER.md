@@ -63,10 +63,11 @@ This Technical Charter sets forth the responsibilities and procedures for techni
 
 | Technical Initiative | Lead |
 |---|---|
-| [Definitions SIG](https://github.com/ossf/security-baseline) | Eddie Knight (@eddie-knight) |
+| [Definitions SIG](https://github.com/ossf/security-baseline) | Interim: Eddie Knight (@eddie-knight) |
 | [Launchpad SIG](https://github.com/ossf/orbit-launchpad) | Nicole Bates (@nikcal) |
 | [Gemara](https://github.com/ossf/gemara) | Jennifer Power (@jpower432) |
 | [Minder](https://github.com/mindersec) | Evan Anderson (@evankanderson) |
+| [Security Insights](https://github.com/ossf/security-insights) | Eddie Knight (@eddie-knight) |
 
 ## 4. TSC Voting
 

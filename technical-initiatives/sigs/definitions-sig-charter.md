@@ -2,7 +2,7 @@
 
 A Special Interest Group (SIG) and Technical Initiative of the [OpenSSF ORBIT Working Group](../../CHARTER.md).
 
-- **SIG Lead:** Eddie Knight, Revanite (see §2.4 for the effect on escalation)
+- **SIG Lead:** Eddie Knight, Revanite (Interim Only)
 
 ## 1. Mission & Technical Scope
 
@@ -50,6 +50,8 @@ The SIG maintains multiple artifacts in parallel. Maintainership is assigned **p
 | Artifact | Repository | Maintainers |
 |----------|------------|-------------|
 | Open Source Project Security Baseline (OSPS Baseline) | [`ossf/security-baseline`](https://github.com/ossf/security-baseline) | TBD |
+| Open Source Project Security Definitions (OSPS Definitions) | [`ossf/security-baseline`](https://github.com/ossf/security-baseline) | TBD |
+
 | _(additional artifacts to be listed as adopted)_ | | |
 
 <!-- TODO: maintainer-assignment mechanics (nomination, confirmation, removal, cross-artifact participation) to be detailed. -->
