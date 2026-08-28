@@ -4,9 +4,9 @@ Several projects within the ORBIT Working Group are chartered directly by LF Pro
 
 The following projects fall into this category:
 
-- Gemara
-- Minder
-- Privateer
+- [Gemara](https://github.com/ossf/gemara)
+- [Minder](https://github.com/mindersec)
+- [Privateer](https://github.com/privateerproj/privateer)
 
 The lead maintainer from each of these projects fills a seat on the ORBIT TSC per the [ORBIT WG Charter](../../CHARTER.md).
 
