@@ -1,0 +1,40 @@
+title: Enforce Baseline Compliance Within an Organization
+
+outcome: >-
+  Establish and enforce minimum security expectations across all projects
+  in an organization's portfolio, giving downstream consumers assurance
+  that projects meet baseline security controls.
+
+audience:
+  role: "Open Source Professional (OSPO)"
+  context: >-
+    OSPO staff responsible for security policy across
+    the organization's project portfolio
+
+ingredients:
+  - OSPS Baseline
+  - Security Insights
+
+equipment:
+  - Minder
+
+technique:
+  description: >-
+    Continuous enforcement — define Minder rule profiles that
+    encode OSPS Baseline controls and Security Insights
+    requirements, then enroll repositories across the
+    organization. Minder continuously evaluates each
+    repository against the rule profiles and opens
+    auto-remediation pull requests for fixable violations,
+    giving the OSPO a portfolio-wide compliance posture
+    without manual auditing.
+
+yield:
+  - name: Rule Profiles
+    description: >-
+      Minder rule profiles encoding OSPS Baseline controls
+      as enforceable policy across the organization
+  - name: Portfolio Compliance Posture
+    description: >-
+      Continuous compliance status across all enrolled
+      repositories with auto-remediation for violations

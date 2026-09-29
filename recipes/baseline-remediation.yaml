@@ -1,0 +1,40 @@
+title: Assess and Remediate OSPS Baseline Gaps
+
+outcome: >-
+  Understand where a project stands against the OSPS Baseline
+  and get actionable remediation guidance for identified gaps,
+  improving security posture without manual research into each
+  control.
+
+audience:
+  role: "Software Developer / Maintainer"
+  context: >-
+    Project maintainer who wants to evaluate and improve
+    their project's security posture against the OSPS Baseline
+
+ingredients:
+  - OSPS Baseline
+
+equipment:
+  - OSPS Baseline Scanner
+  - darnit
+
+technique:
+  description: >-
+    Scan and remediate — run the OSPS Baseline Scanner against
+    the repository to produce a compliance assessment identifying
+    which controls pass, fail, or are not yet evaluated. Feed
+    the scanner's findings into darnit, which uses AI to suggest
+    concrete fixes for each failing control. Review and apply
+    the suggested remediations, then re-scan to confirm the gaps
+    are closed.
+
+yield:
+  - name: Baseline Assessment
+    description: >-
+      Compliance report showing the project's status against
+      each OSPS Baseline control at its assessed maturity level
+  - name: Remediation Suggestions
+    description: >-
+      AI-generated fix suggestions for each failing control,
+      ready to review and apply

@@ -37,6 +37,36 @@ We value all contributions, from improving documentation to participating in dis
 - Ensure your PR is well-documented and follows project guidelines.
 - Be open to feedback and ready to make improvements.
 
+## Recipe Cards
+
+Recipe cards map outcomes to the ORBIT tools and resources needed to achieve them. Each card is a YAML file in the `recipes/` directory.
+
+### Adding or Editing a Card
+
+1. Use an existing card as a template (e.g., [`recipes/ospo-org.yaml`](recipes/ospo-org.yaml)).
+2. Create or edit a YAML file in `recipes/`. Each card has these fields:
+   - **title** — the outcome this card achieves
+   - **outcome** — a short paragraph explaining the goal
+   - **audience** — `role` (from the predefined list) and `context`
+   - **ingredients** — specifications, standards, or frameworks used
+   - **equipment** — tools with `gemaraLayers` (1–7), `gemaraImplementation`, `origin`, and `when`
+   - **technique** — how the ingredients and equipment work together
+   - **yield** — the artifacts produced
+3. Open a Pull Request with your YAML changes.
+
+> **Do not edit files in `docs/recipes/` or `docs/equipment-matrix.md` directly.** These are generated from the YAML source by the CUE renderer.
+
+### Maintainer Setup
+
+Maintainers use [pre-commit](https://pre-commit.com) to auto-render markdown when recipe files change:
+
+```sh
+pip install pre-commit
+pre-commit install
+```
+
+After setup, any commit touching `recipes/` will automatically regenerate the docs.
+
 ## Code of Conduct
 
 We are committed to maintaining a welcoming, inclusive, and respectful environment. Please read and follow our [Code of Conduct](https://openssf.org/community/code-of-conduct/) to ensure a positive experience for everyone.
